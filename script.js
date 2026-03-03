@@ -17,6 +17,13 @@ function handleClick() {
     clicks = clicks + 1;
 
     // update display
-    ckickDisplay.innerText = "Clicks: " + clicks;
-}
+    clickDisplay.innerText = "Clicks: " + clicks;
+
+    // detect if 
+    if (clicks == 10) {
+        alert("Congratulations you reached the next level you now do 2 per click now!");
+        //
+        clicks = clicks + 2;
+    }
+    }
 
